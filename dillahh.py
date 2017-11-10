@@ -57,8 +57,9 @@ print "login success"
 reload(sys)
 sys.setdefaultencoding('utf-8')
 helpMessage ="""
-SET TEST COMMAND USER PSD BOT
->=Self Command in Group->
+SET TEST COMMAND  BOT
+
+>=Self ஜ۩[⑄̶̶̶̲̄ṉ̅ūgī̶̲™⑄]۩ஜ _ ->
 
 ✒ Me
 ✒ Id
@@ -145,7 +146,7 @@ SET TEST COMMAND USER PSD BOT
 ✒ Protect On/off
 
 
-✒Creator By: nZets✒"""
+✒Creator By:ஜ۩[⑄̶̶̶̲̄ṉ̅ūgī̶̲™⑄]۩ஜ _ ✒"""
 
 KAC=[cl,ki,kk,kc,kd,ke,kf,kg,kh,kj,kl,km]
 mid = cl.getProfile().mid
@@ -169,9 +170,9 @@ wait = {
     'leaveRoom':False,
     'timeline':True,
     'autoAdd':False,
-    'message':"Thanks for add Me MY NAME IS ZETSU",
+    'message':"Thanks for add Me MY NAME IS ஜ۩[⑄̶̶̶̲̄ṉ̅ūgī̶̲™⑄]۩ஜ _ ",
     "lang":"JP",
-    "comment":"Thanks for add me MY NAME IS ZETSU",
+    "comment":"Thanks for add me MY NAME IS ஜ۩[⑄̶̶̶̲̄ṉ̅ūgī̶̲™⑄]۩ஜ _ ",
     "commentOn":True,
     "likeOn":True,
     "commentBlack":{},
@@ -2504,10 +2505,10 @@ def bot(op):
                                 except:
                                     kl.leaveGroup(msg.to)
                                     gs = cl.getGroup(msg.to)
-                        	        gs.preventJoinByTicket = True
-                        	        cl.updateGroup(gs)
+                        	    gs.preventJoinByTicket = True
+                        	    cl.updateGroup(gs)
                                     gs.preventJoinByTicket(gs)
-                        	        cl.updateGroup(gs)
+                        	    cl.updateGroup(gs)
 
             elif "Zk " in msg.text:
                        nk0 = msg.text.replace("Zk ","")
@@ -2538,10 +2539,10 @@ def bot(op):
                                 except:
                                     km.leaveGroup(msg.to)
                                     gs = cl.getGroup(msg.to)
-                        	        gs.preventJoinByTicket = True
-                        	        cl.updateGroup(gs)
+                        	    gs.preventJoinByTicket = True
+                        	    cl.updateGroup(gs)
                                     gs.preventJoinByTicket(gs)
-                        	        cl.updateGroup(gs)
+                        	    cl.updateGroup(gs)
 
             elif "Ak " in msg.text:
                        nk0 = msg.text.replace("Ak ","")
@@ -2572,10 +2573,10 @@ def bot(op):
                                 except:
                                     kn.leaveGroup(msg.to)
                                     gs = cl.getGroup(msg.to)
-                        	        gs.preventJoinByTicket = True
-                        	        cl.updateGroup(gs)
+                        	    gs.preventJoinByTicket = True
+                        	    cl.updateGroup(gs)
                                     gs.preventJoinByTicket(gs)
-                        	        cl.updateGroup(gs)
+                        	    cl.updateGroup(gs)
             elif "Bk " in msg.text:
                        nk0 = msg.text.replace("Bk ","")
                        nk1 = nk0.lstrip()
@@ -2605,10 +2606,10 @@ def bot(op):
                                 except:
                                     ko.leaveGroup(msg.to)
                                     gs = cl.getGroup(msg.to)
-                        	        gs.preventJoinByTicket = True
-                        	        cl.updateGroup(gs)
+                        	    gs.preventJoinByTicket = True
+                        	    cl.updateGroup(gs)
                                     gs.preventJoinByTicket(gs)
-                        	        cl.updateGroup(gs)
+                        	    cl.updateGroup(gs)
 
             elif "Ck " in msg.text:
                        nk0 = msg.text.replace("Ck ","")
@@ -2639,10 +2640,10 @@ def bot(op):
                                 except:
                                     kp.leaveGroup(msg.to)
                                     gs = cl.getGroup(msg.to)
-                        	        gs.preventJoinByTicket = True
-                        	        cl.updateGroup(gs)
+                        	    gs.preventJoinByTicket = True
+                        	    cl.updateGroup(gs)
                                     gs.preventJoinByTicket(gs)
-                        	        cl.updateGroup(gs)
+                        	    cl.updateGroup(gs)
             elif "Dk " in msg.text:
                        nk0 = msg.text.replace("Dk ","")
                        nk1 = nk0.lstrip()
@@ -2672,10 +2673,10 @@ def bot(op):
                                 except:
                                     kq.leaveGroup(msg.to)
                                     gs = cl.getGroup(msg.to)
-                        	        gs.preventJoinByTicket = True
-                        	        cl.updateGroup(gs)
+                        	    gs.preventJoinByTicket = True
+                        	    cl.updateGroup(gs)
                                     gs.preventJoinByTicket(gs)
-                        	        cl.updateGroup(gs)
+                        	    cl.updateGroup(gs)
 
             elif "Blacklist @" in msg.text:
                 _name = msg.text.replace("Blacklist @","")
